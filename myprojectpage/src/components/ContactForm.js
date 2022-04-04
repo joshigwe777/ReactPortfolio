@@ -1,10 +1,9 @@
 function ContactForm() {
     return <>
-        <div className="container mx-auto">
+        <div className="container mx-auto my-5">
             <div className="row">
                 <div className="col-6 mx-auto">
-                    <h2>Contact me</h2>
-                    <h3>Say Hello</h3>
+                    <h4>Say Hello</h4>
                     <p>I would love to collaborate and connect with you!</p>
                 </div>
             </div>
@@ -13,13 +12,13 @@ function ContactForm() {
         <div className="container">
             <div className="row">
                 <div className="col-sm">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <i className="fa fa-map-marker contactIcon" aria-hidden="true"></i>
                     <p>Cleveland, Ohio</p>
 
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i className="fa fa-envelope contactIcon" aria-hidden="true"></i>
                     <p>joshuaigwe1995@gmail.com</p>
 
-                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <i className="fa fa-phone contactIcon" aria-hidden="true"></i>
                     <div>+16143078345</div>
                 </div>
 

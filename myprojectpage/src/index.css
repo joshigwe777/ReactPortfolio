@@ -7,14 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Inknut Antiqua', serif;
   color: white;
-  background-color: black;
+  background-color: #1A1A1D;
+}
+.topSection h3 {
+  color: #950740;
+}
+.contactMe {
+  color: #4E4E50;
+}
+.topSection p {
+  color: white;
 }
 a {
-  color: #3500D3;
+  color: #C3073F;
 }
 img {
-  height: 300px;
+  height: 400px;
   margin: auto;
+}
+.lyricNinjaPicture {
+  width: 400px;
+  height: 275px;
+}
+.fa-brands, .contactIcon {
+  color: #C3073F;
 }
 
 code {
