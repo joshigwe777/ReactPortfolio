@@ -1,6 +1,6 @@
 function NavBar() {
     return <>
-        <ul class="nav justify-content-end mb-5">
+        <ul class="nav justify-content-end navagation mb-5">
             <li class="nav-item">
                 <a class="nav-link active" href="#"></a>
             </li>
