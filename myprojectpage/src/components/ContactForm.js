@@ -1,4 +1,15 @@
+import React, {useState}  from "react";
 function ContactForm() {
+    const [fullName, setFullName] = useState("");
+    const [email, setEmail] = useState("");
+    const [phoneNumber, setPhoneNumber] = useState("");
+    const [message, setMessage] = useState("");
+
+    const handleSubmit= (e) => {
+        e.preventDefault();
+        
+      }
+
     return <>
         <div className="container mx-auto my-5">
             <div className="row">
@@ -23,23 +34,23 @@ function ContactForm() {
                 </div>
 
                 <div className="col-sm">
-                    <form>
+                    <form onSubmit={handleSubmit}> 
                         <div className="form-row">
                             <div className="col-8 my-4">
-                                <input type="text" className="form-control" placeholder="full name" />
+                                <input value={fullName} onChange={e => setFullName(e.target.value)} type="text" className="form-control" placeholder="full name" />
                             </div>
                         </div>
                         <div className="form-row">
                             <div className="col-4">
-                                <input type="text" className="form-control" placeholder="Email" />
+                                <input value={email} onChange={e => setEmail(e.target.value)}  type="text" className="form-control" placeholder="Email" />
                             </div>
                             <div className="col-4">
-                                <input type="text" className="form-control" placeholder="Last name" />
+                                <input value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)} type="text" className="form-control" placeholder="Phone Number" />
                             </div>
                         </div>
                         <div class="form-row">
                             <div className="col-8 my-4">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message"></textarea>
+                                <textarea value={message} onChange={e => setMessage(e.target.value)} class="form-control" id="exampleFormControlTextarea1" placeholder="message"></textarea>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
