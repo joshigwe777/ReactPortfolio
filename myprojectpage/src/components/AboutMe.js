@@ -1,7 +1,7 @@
 function AboutMe() {
     return <>
-        <div className="container my-5">
-            <div className="row">
+        <div className="container">
+            <div className="row mb-5">
                 <div className="col-6">
                     <img className="img-fluid rounded" src="images/aboutme.jpg" />
                 </div>

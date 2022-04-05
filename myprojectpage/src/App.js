@@ -4,13 +4,12 @@ import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
-import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return <>
     <div className="App">
       <BrowserRouter>
-        <a className="nav-link logo active" href="#"><img className="logo" src="images/logo.png" /></a>
         <NavBar />
         <Routes>
 

@@ -1,19 +1,14 @@
+import { Link } from "react-router-dom";
 function NavBar() {
     return <>
-        <ul class="nav justify-content-end navagation mb-5">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Contact</a>
-            </li>
-        </ul>
+        <nav className="navbar navbar-expand-lg ">
+            <Link to="/"><img className="logo mr-auto" src="images/logo.png" /></Link>
+            <Link to="/" className="ml-auto nav-link">Home</Link>
+            <Link to="/portfolio" class="nav-link">Portfolio</Link>
+            <Link to="/aboutMe" class="nav-link">About Me</Link>
+            <Link to="/contactForm" class="nav-link">Contact</Link>
+
+        </nav>
     </>
 }
 export default NavBar;
