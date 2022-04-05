@@ -1,4 +1,5 @@
 import React, {useState}  from "react";
+import {send} from 'emailjs-com' ;
 function ContactForm() {
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
@@ -7,6 +8,22 @@ function ContactForm() {
 
     const handleSubmit= (e) => {
         e.preventDefault();
+        send(
+            'service_b5e9yxc',
+            'template_2q9xael',
+            {fullName, email, phoneNumber, message},
+            'B9nIzjqMB-hV1A9bJ'
+        )
+        .then((response) => {
+            console.log('Message sent successfully', response.status, response.text)
+        })
+        .catch((err) => {
+            console.log('failed', err)
+        })
+        setFullName('');
+        setEmail('');
+        setPhoneNumber('');
+        setMessage('');
         
       }
 
