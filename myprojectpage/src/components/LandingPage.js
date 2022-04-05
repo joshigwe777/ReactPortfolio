@@ -1,6 +1,10 @@
+import AboutMe from "./AboutMe";
+import ContactForm from "./ContactForm";
+import Portfolio from "./Portfolio";
+
 function LandingPage() {
     return <>
-        <div className="mx-auto container topSection">
+        <div id="#home" className="mx-auto container topSection">
             <div className="row">
                 <div className="col-6">
                     <div className="container">
