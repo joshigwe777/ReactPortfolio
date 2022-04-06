@@ -23,14 +23,14 @@ function LandingPage() {
                             </div>
                         </div>
                         <div className="row mx-auto">
-                            <Link className="btn btn-danger" to="/contactForm">Contact me</Link>
+                            <Link className="btn btn-danger" to="/myprojectpage/contactForm">Contact me</Link>
                         </div>
 
                     </div>
 
                 </div>
                 <div className="col-6">
-                    <img className="mx-auto rounded d-block" src="images/profile.jpg" alt="profile picture of Joshua" />
+                    <img className="mx-auto rounded d-block" src="./images/profile.jpg" alt="profile picture of Joshua" />
                 </div>
             </div>
         </div>

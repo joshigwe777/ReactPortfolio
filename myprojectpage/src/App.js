@@ -12,11 +12,10 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-
-          <Route exact path="/" element={<LandingPage/>}/>
-          <Route path="/aboutMe" element={<AboutMe/>}/>
-          <Route path="/portfolio" element={<Portfolio/>}/>
-          <Route path="/contactForm" element={<ContactForm/>}/>
+          <Route exact path="myprojectpage" element={<LandingPage/>}/>
+          <Route path="/myprojectpage/aboutMe" element={<AboutMe/>}/>
+          <Route path="/myprojectpage/portfolio" element={<Portfolio/>}/>
+          <Route path="/myprojectpage/contactForm" element={<ContactForm/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
