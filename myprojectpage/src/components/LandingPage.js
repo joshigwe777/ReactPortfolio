@@ -30,7 +30,7 @@ function LandingPage() {
 
                 </div>
                 <div className="col-6">
-                    <img className="mx-auto rounded d-block" src="./images/profile.jpg" alt="profile picture of Joshua" />
+                    <img className="mx-auto rounded d-block" src="../images/profile.jpg" alt="profile picture of Joshua" />
                 </div>
             </div>
         </div>
