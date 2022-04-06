@@ -28,7 +28,7 @@ function ContactForm() {
       }
 
     return <>
-        <div className="container mx-auto my-5">
+        <div className="container mx-auto">
             <div className="row">
                 <div className="col-6 mx-auto">
                     <h4>Say Hello</h4>
@@ -39,7 +39,7 @@ function ContactForm() {
 
         <div className="container">
             <div className="row">
-                <div className="col-sm">
+                <div className="col-sm-4">
                     <i className="fa fa-map-marker contactIcon" aria-hidden="true"></i>
                     <p>Cleveland, Ohio</p>
 
@@ -50,7 +50,7 @@ function ContactForm() {
                     <div>+16143078345</div>
                 </div>
 
-                <div className="col-sm">
+                <div className="col-sm-8">
                     <form onSubmit={handleSubmit}> 
                         <div className="form-row">
                             <div className="col-8 my-4">
@@ -67,7 +67,7 @@ function ContactForm() {
                         </div>
                         <div class="form-row">
                             <div className="col-8 my-4">
-                                <textarea value={message} onChange={e => setMessage(e.target.value)} class="form-control" id="exampleFormControlTextarea1" placeholder="message"></textarea>
+                                <textarea value={message} onChange={e => setMessage(e.target.value)} class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="7"></textarea>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>

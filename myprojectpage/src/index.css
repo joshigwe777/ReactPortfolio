@@ -12,12 +12,11 @@ body {
 .topSection h3 {
   color: #950740;
 }
-.contactMe {
-  color: #4E4E50;
-}
-.topSection p {
+
+.topSection p{
   color: white;
 }
+
 a {
   color: #C3073F;
 }

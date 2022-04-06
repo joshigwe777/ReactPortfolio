@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
 import ContactForm from "./ContactForm";
 import Portfolio from "./Portfolio";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
     return <>
@@ -22,7 +23,7 @@ function LandingPage() {
                             </div>
                         </div>
                         <div className="row mx-auto">
-                            <a class="btn contactMe btn-danger mt-3" href="#" role="button">Contact me</a>
+                            <Link className="btn btn-danger" to="/contactForm">Contact me</Link>
                         </div>
 
                     </div>
