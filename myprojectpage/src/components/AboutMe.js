@@ -2,10 +2,10 @@ function AboutMe() {
     return <>
         <div className="container">
             <div className="row mb-5">
-                <div className="col-6">
+                <div className="col-5">
                     <img className="img-fluid rounded" src="images/aboutme.jpg" />
                 </div>
-                <div className="col-6">
+                <div className="col-7">
                     <h3>Who am I?</h3>
                     <p>I am a former Industrial and Systems Engineering major who fell in love with
                         programming my senior year of college. After working for a few years in the non-profit space I made my transition into software development.
