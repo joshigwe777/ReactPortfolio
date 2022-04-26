@@ -2,6 +2,7 @@ import AboutMe from "./AboutMe";
 import ContactForm from "./ContactForm";
 import Portfolio from "./Portfolio";
 import { Link } from "react-router-dom";
+import profile from "../images/profile.jpg"
 
 function LandingPage() {
     return <>
@@ -30,7 +31,7 @@ function LandingPage() {
 
                 </div>
                 <div className="col-6">
-                    <img className="mx-auto rounded d-block" src="../images/profile.jpg" alt="profile picture of Joshua" />
+                    <img className="mx-auto rounded d-block" src={profile} alt="profile picture of Joshua" />
                 </div>
             </div>
         </div>
