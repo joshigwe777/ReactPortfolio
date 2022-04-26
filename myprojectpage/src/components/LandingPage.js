@@ -6,9 +6,9 @@ import profile from "../images/profile.jpg"
 
 function LandingPage() {
     return <>
-        <div id="#home" className="mx-auto container topSection">
+        <div id="#home" className="mx-auto container-fluid topSection">
             <div className="row">
-                <div className="col-6">
+                <div className="col-sm-6">
                     <div className="container">
                         <div className="row mx-auto my-3">
                             <h1 className="text-center">Hello, my name is Joshua and I like making cool stuff!</h1>
@@ -23,14 +23,14 @@ function LandingPage() {
                                 <i className="fa-brands fa-2xl mx-1 fa-js"></i>
                             </div>
                         </div>
-                        <div className="row mx-auto">
+                        <div className="row mx-auto my-5">
                             <Link className="btn btn-danger" to="/myprojectpage/contactForm">Contact me</Link>
                         </div>
 
                     </div>
 
                 </div>
-                <div className="col-6">
+                <div className="col-sm-6">
                     <img className="mx-auto rounded d-block" src={profile} alt="profile picture of Joshua" />
                 </div>
             </div>
