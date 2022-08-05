@@ -12,7 +12,7 @@ function LandingPage() {
                     <div className="container">
                         <div className="row mx-auto my-3">
                             <h1 className="text-center">Hello, my name is Joshua and I like making cool stuff!</h1>
-                            <h3 className="my-3">Full Stack Software Engineer</h3>
+                            <h3 className="my-3 typewriter">Full Stack Software Engineer</h3>
                             <p className="">I am a professional software engineer with experience in modern technologies!</p>
                             <div className="row my-3 mx-auto">
                                 <i className="fa-brands fa-2xl mx-1 fa-aws"></i>
