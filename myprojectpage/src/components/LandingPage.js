@@ -15,10 +15,10 @@ function LandingPage() {
                             <h3 className="my-3 typewriter">Full Stack Software Engineer</h3>
                             <p className="">I am a professional software engineer with experience in modern technologies!</p>
                             <div className="row my-3 mx-auto">
-                                <i className="fa-brands fa-2xl mx-1 fa-aws"></i>
-                                <i className="fa-brands fa-2xl mx-1 fa-docker"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-java"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-react"></i>
+                                <i className="fa-brands fa-2xl mx-1 fa-aws"></i>
+                                <i className="fa-brands fa-2xl mx-1 fa-docker"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-bootstrap"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-js"></i>
                             </div>
