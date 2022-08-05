@@ -13,6 +13,7 @@ function Project() {
                     <i className="fa-brands fa-2xl mx-1 fa-docker"></i>
                     <i className="fa-brands fa-2xl mx-1 fa-java"></i>
                     <i className="fa-brands fa-2xl mx-1 fa-react"></i>
+                    <a href="https://github.com/joshigwe777/lyric-ninja" target="_blank"><i className="fa-brands mx-3 fa-2xl fa-github"></i></a>
                 </div>
 
             </div>
