@@ -32,7 +32,7 @@ function ContactForm() {
             <div className="row">
                 <div className="col-6 mx-auto">
                     <h4>Say Hello</h4>
-                    <p className="typewriter">I would love to collaborate and connect with you!</p>
+                    <p className="typewriter">I would love to collaborate!</p>
                 </div>
             </div>
         </div>

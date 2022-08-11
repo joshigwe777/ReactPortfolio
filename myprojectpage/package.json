@@ -1,7 +1,6 @@
 {
   "name": "myprojectpage",
   "version": "0.1.0",
-  "homepage": "http://joshigwe777.github.io/reactportfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
