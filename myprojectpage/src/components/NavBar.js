@@ -1,21 +1,27 @@
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavBar() {
     return <>
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-5">
-            <a className="navbar-brand"><Link to="/"><img className="logo mr-auto" src={logo} /></Link></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <div className="navbar-nav">
-                    <a className="nav-link"><Link to="/" className="nav-item nav-link">Home</Link></a>
-                    <a className="nav-link"><Link to="/myprojectpage/portfolio" className="nav-item nav-link">Portfolio</Link></a>
-                    <a className="nav-link"><Link to="/myprojectpage/aboutMe" className="nav-item nav-link">About Me</Link></a>
-                    <a className="nav-link"><Link to="/myprojectpage/contactForm" className="nav-item nav-link">Contact</Link></a>
-                </div>
-            </div>
-        </nav>
+        <Navbar className="mb-5" bg="dark" expand="md">
+            <Container>
+                <Navbar.Brand href="#home"><Link to="/"><img className="logo mr-auto" src={logo} /></Link></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/myprojectpage/portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="/myprojectpage/aboutMe">About Me</Nav.Link>
+                        <Nav.Link href="/myprojectpage/contactForm">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+
+
     </>
 }
 export default NavBar;

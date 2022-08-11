@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import { BrowserRouter, Router, Route, Routes, Link } from "react-router-dom";
 
+
 function App() {
   return <>
     <div className="App">
