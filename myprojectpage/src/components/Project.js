@@ -4,7 +4,7 @@ function Project() {
         <div className="container mx-8 my-5">
             <div className="row">
                 <div className="col-sm-6">
-                    <a href="http://lyricninja-env.eba-hq4sm8mv.us-east-2.elasticbeanstalk.com/" target="_blank">
+                    <a href="http://lyricninja-env-1.eba-hq4sm8mv.us-east-2.elasticbeanstalk.com/" target="_blank">
                         <img className="lyricNinjaPicture img-fluid rounded" src={lyricNinja} /></a>
                 </div>
                 <div className="col-sm-4">
