@@ -8,12 +8,10 @@ function AboutMe() {
                 </div>
                 <div className="col-7">
                     <h3 className="">Who am I?</h3>
-                    <p>As a former Industrial and Systems Engineering major, I developed a passion for programming during my senior year of college. 
-                        After honing my skills in the non-profit sector, I smoothly transitioned into software development. 
-                        I bring experience in both backend and test engineering, utilizing technologies such as Java, Spring, Oracle, MySql, Docker, AWS, and more. 
-                        Additionally, I am familiar with front-end technologies including Javascript, React, HTML, and CSS. 
-                        To continue my growth as an engineer, I am participating in the Formation Fellowship, where I am honing my computer science and systems design fundamentals, and receiving mentorship from engineers at top tech companies. 
-                        When I am not absorbed in software, I enjoy playing and watching basketball, meditating, reading, listening to podcasts, and sipping coffee at local coffee shops.  </p>
+                    <p> Welcome to my portfolio! I'm a Full-Stack Software Engineer with a two-year track record in the Banking sector. My expertise lies in React, Typescript, and Java, where I've improved the account origination process for customers and bankers. I also specialize in UI and service automation, utilizing Selenium, Testng, and Cucumber.
+With a background in Industrial and Systems Engineering, I approach software development holistically, valuing collaboration and teamwork. I'm passionate about learning and growth, always ready to embrace new challenges.
+Outside of work, I enjoy basketball, meditation, reading, experimenting with ChatGPT, listening to podcasts, and exploring local coffee shops. This mix of professional dedication and personal interests shapes my unique perspective.
+ </p>
                 </div>
 
             </div>

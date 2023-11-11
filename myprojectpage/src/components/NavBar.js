@@ -14,8 +14,10 @@ function NavBar() {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/myprojectpage/portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="/myprojectpage/experience">Experience</Nav.Link>
                         <Nav.Link href="/myprojectpage/aboutMe">About Me</Nav.Link>
                         <Nav.Link href="/myprojectpage/contactForm">Contact</Nav.Link>
+                        <Nav.Link href="/myprojectpage/experience">Experience</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import ContactForm from "./components/ContactForm";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import NavBar from "./components/NavBar";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/myprojectpage/aboutMe" element={<AboutMe/>}/>
           <Route path="/myprojectpage/portfolio" element={<Portfolio/>}/>
           <Route path="/myprojectpage/contactForm" element={<ContactForm/>}/>
+          <Route path="/myprojectpage/experience" element={<Experience/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

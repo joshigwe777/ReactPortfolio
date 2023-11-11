@@ -41,7 +41,7 @@ function ContactForm() {
             <div className="row">
                 <div className="col-sm-4">
                     <i className="fa fa-map-marker contactIcon" aria-hidden="true"></i>
-                    <p>Cleveland, Ohio</p>
+                    <p>Columbus, Ohio</p>
 
                     <i className="fa fa-envelope contactIcon" aria-hidden="true"></i>
                     <p>joshuaigwe1995@gmail.com</p>

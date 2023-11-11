@@ -11,16 +11,16 @@ function LandingPage() {
                 <div className="col-sm-6">
                     <div className="container">
                         <div className="row mx-auto my-3">
-                            <h1 className="text-center">Hello, my name is Joshua and I like making cool stuff!</h1>
+                            <h1 className="text-center">Hello, my name is Joshua Igwe</h1>
                             <h3 className="my-3 typewriter">Full Stack Software Engineer</h3>
-                            <p className="">I am a professional software engineer with experience in modern technologies!</p>
+                            <p className="">I am a software engineer with two years of experience in the Banking Industry</p>
                             <div className="row my-3 mx-auto">
-                                <i className="fa-brands fa-2xl mx-1 fa-java"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-react"></i>
+                                <i className="fa-brands fa-2xl mx-1 fa-js"></i>
+                                <i className="fa-brands fa-2xl mx-1 fa-java"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-aws"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-docker"></i>
                                 <i className="fa-brands fa-2xl mx-1 fa-bootstrap"></i>
-                                <i className="fa-brands fa-2xl mx-1 fa-js"></i>
                             </div>
                         </div>
                         <div className="row mx-auto my-5">
