@@ -103,4 +103,57 @@ footer {
   height: 50px;
 }
 
+.experiences {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.experiences div {
+  background-color: #1A1A1D; 
+  color: white; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.experiences div:hover {
+  transform: scale(1.05);
+  background-color: #4ecdc4; 
+}
+
+
+.experiences div:hover h2, .experiences div:hover p {
+  
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.experiences div:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.experiences div:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+
+.experiences div:hover {
+
+}
+
+
+
 
